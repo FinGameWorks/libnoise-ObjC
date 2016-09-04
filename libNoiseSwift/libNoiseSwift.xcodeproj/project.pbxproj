@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D6EC1BF1D7C57FD004A4C22 /* Surge.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6EC1BE1D7C57FD004A4C22 /* Surge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D6EC1CD1D7C580A004A4C22 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1C41D7C580A004A4C22 /* Arithmetic.swift */; };
+		0D6EC1CE1D7C580A004A4C22 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1C51D7C580A004A4C22 /* Auxiliary.swift */; };
+		0D6EC1CF1D7C580A004A4C22 /* Convolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1C61D7C580A004A4C22 /* Convolution.swift */; };
+		0D6EC1D01D7C580A004A4C22 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1C71D7C580A004A4C22 /* Exponential.swift */; };
+		0D6EC1D11D7C580A004A4C22 /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1C81D7C580A004A4C22 /* FFT.swift */; };
+		0D6EC1D21D7C580A004A4C22 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1C91D7C580A004A4C22 /* Hyperbolic.swift */; };
+		0D6EC1D31D7C580A004A4C22 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1CA1D7C580A004A4C22 /* Matrix.swift */; };
+		0D6EC1D41D7C580A004A4C22 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1CB1D7C580A004A4C22 /* Power.swift */; };
+		0D6EC1D51D7C580A004A4C22 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6EC1CC1D7C580A004A4C22 /* Trigonometric.swift */; };
+		0D6EC1D61D7C5824004A4C22 /* Surge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6EC1BC1D7C57FD004A4C22 /* Surge.framework */; };
+		0DBEB36B1D7695E8001C8649 /* libNoiseSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBEB36A1D7695E8001C8649 /* libNoiseSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBEB3881D76962F001C8649 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEB3871D76962F001C8649 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D6EC1BC1D7C57FD004A4C22 /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6EC1BE1D7C57FD004A4C22 /* Surge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Surge.h; sourceTree = "<group>"; };
+		0D6EC1C01D7C57FD004A4C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6EC1C41D7C580A004A4C22 /* Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
+		0D6EC1C51D7C580A004A4C22 /* Auxiliary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auxiliary.swift; sourceTree = "<group>"; };
+		0D6EC1C61D7C580A004A4C22 /* Convolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convolution.swift; sourceTree = "<group>"; };
+		0D6EC1C71D7C580A004A4C22 /* Exponential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponential.swift; sourceTree = "<group>"; };
+		0D6EC1C81D7C580A004A4C22 /* FFT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFT.swift; sourceTree = "<group>"; };
+		0D6EC1C91D7C580A004A4C22 /* Hyperbolic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hyperbolic.swift; sourceTree = "<group>"; };
+		0D6EC1CA1D7C580A004A4C22 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		0D6EC1CB1D7C580A004A4C22 /* Power.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		0D6EC1CC1D7C580A004A4C22 /* Trigonometric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trigonometric.swift; sourceTree = "<group>"; };
+		0DBEB3671D7695E8001C8649 /* libNoiseSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libNoiseSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBEB36A1D7695E8001C8649 /* libNoiseSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libNoiseSwift.h; sourceTree = "<group>"; };
+		0DBEB36C1D7695E8001C8649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBEB3871D76962F001C8649 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D6EC1B81D7C57FD004A4C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBEB3631D7695E8001C8649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6EC1D61D7C5824004A4C22 /* Surge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6EC1BD1D7C57FD004A4C22 /* Surge */ = {
+			isa = PBXGroup;
+			children = (
+				0D6EC1BE1D7C57FD004A4C22 /* Surge.h */,
+				0D6EC1C41D7C580A004A4C22 /* Arithmetic.swift */,
+				0D6EC1C51D7C580A004A4C22 /* Auxiliary.swift */,
+				0D6EC1C61D7C580A004A4C22 /* Convolution.swift */,
+				0D6EC1C71D7C580A004A4C22 /* Exponential.swift */,
+				0D6EC1C81D7C580A004A4C22 /* FFT.swift */,
+				0D6EC1C91D7C580A004A4C22 /* Hyperbolic.swift */,
+				0D6EC1CA1D7C580A004A4C22 /* Matrix.swift */,
+				0D6EC1CB1D7C580A004A4C22 /* Power.swift */,
+				0D6EC1CC1D7C580A004A4C22 /* Trigonometric.swift */,
+				0D6EC1C01D7C57FD004A4C22 /* Info.plist */,
+			);
+			path = Surge;
+			sourceTree = "<group>";
+		};
+		0DBEB35D1D7695E8001C8649 = {
+			isa = PBXGroup;
+			children = (
+				0DBEB3691D7695E8001C8649 /* libNoiseSwift */,
+				0D6EC1BD1D7C57FD004A4C22 /* Surge */,
+				0DBEB3681D7695E8001C8649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DBEB3681D7695E8001C8649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DBEB3671D7695E8001C8649 /* libNoiseSwift.framework */,
+				0D6EC1BC1D7C57FD004A4C22 /* Surge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DBEB3691D7695E8001C8649 /* libNoiseSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0DBEB36A1D7695E8001C8649 /* libNoiseSwift.h */,
+				0DBEB3871D76962F001C8649 /* Utils.swift */,
+				0DBEB36C1D7695E8001C8649 /* Info.plist */,
+			);
+			path = libNoiseSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D6EC1B91D7C57FD004A4C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6EC1BF1D7C57FD004A4C22 /* Surge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBEB3641D7695E8001C8649 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBEB36B1D7695E8001C8649 /* libNoiseSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D6EC1BB1D7C57FD004A4C22 /* Surge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6EC1C11D7C57FD004A4C22 /* Build configuration list for PBXNativeTarget "Surge" */;
+			buildPhases = (
+				0D6EC1B71D7C57FD004A4C22 /* Sources */,
+				0D6EC1B81D7C57FD004A4C22 /* Frameworks */,
+				0D6EC1B91D7C57FD004A4C22 /* Headers */,
+				0D6EC1BA1D7C57FD004A4C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surge;
+			productName = Surge;
+			productReference = 0D6EC1BC1D7C57FD004A4C22 /* Surge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0DBEB3661D7695E8001C8649 /* libNoiseSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBEB36F1D7695E8001C8649 /* Build configuration list for PBXNativeTarget "libNoiseSwift" */;
+			buildPhases = (
+				0DBEB3621D7695E8001C8649 /* Sources */,
+				0DBEB3631D7695E8001C8649 /* Frameworks */,
+				0DBEB3641D7695E8001C8649 /* Headers */,
+				0DBEB3651D7695E8001C8649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libNoiseSwift;
+			productName = libNoiseSwift;
+			productReference = 0DBEB3671D7695E8001C8649 /* libNoiseSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DBEB35E1D7695E8001C8649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JustZht;
+				TargetAttributes = {
+					0D6EC1BB1D7C57FD004A4C22 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0DBEB3661D7695E8001C8649 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0DBEB3611D7695E8001C8649 /* Build configuration list for PBXProject "libNoiseSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DBEB35D1D7695E8001C8649;
+			productRefGroup = 0DBEB3681D7695E8001C8649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DBEB3661D7695E8001C8649 /* libNoiseSwift */,
+				0D6EC1BB1D7C57FD004A4C22 /* Surge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D6EC1BA1D7C57FD004A4C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBEB3651D7695E8001C8649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D6EC1B71D7C57FD004A4C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6EC1D31D7C580A004A4C22 /* Matrix.swift in Sources */,
+				0D6EC1CE1D7C580A004A4C22 /* Auxiliary.swift in Sources */,
+				0D6EC1CD1D7C580A004A4C22 /* Arithmetic.swift in Sources */,
+				0D6EC1D51D7C580A004A4C22 /* Trigonometric.swift in Sources */,
+				0D6EC1D41D7C580A004A4C22 /* Power.swift in Sources */,
+				0D6EC1D21D7C580A004A4C22 /* Hyperbolic.swift in Sources */,
+				0D6EC1CF1D7C580A004A4C22 /* Convolution.swift in Sources */,
+				0D6EC1D11D7C580A004A4C22 /* FFT.swift in Sources */,
+				0D6EC1D01D7C580A004A4C22 /* Exponential.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DBEB3621D7695E8001C8649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBEB3881D76962F001C8649 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D6EC1C21D7C57FD004A4C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Surge/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustZht.Surge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D6EC1C31D7C57FD004A4C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Surge/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustZht.Surge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0DBEB36D1D7695E8001C8649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DBEB36E1D7695E8001C8649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DBEB3701D7695E8001C8649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = libNoiseSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustZht.libNoiseSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0DBEB3711D7695E8001C8649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = libNoiseSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustZht.libNoiseSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D6EC1C11D7C57FD004A4C22 /* Build configuration list for PBXNativeTarget "Surge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6EC1C21D7C57FD004A4C22 /* Debug */,
+				0D6EC1C31D7C57FD004A4C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DBEB3611D7695E8001C8649 /* Build configuration list for PBXProject "libNoiseSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBEB36D1D7695E8001C8649 /* Debug */,
+				0DBEB36E1D7695E8001C8649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DBEB36F1D7695E8001C8649 /* Build configuration list for PBXNativeTarget "libNoiseSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBEB3701D7695E8001C8649 /* Debug */,
+				0DBEB3711D7695E8001C8649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DBEB35E1D7695E8001C8649 /* Project object */;
+}

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:libNoiseDemo.xcodeproj">
+      location = "self:libNoiseSwift.xcodeproj">
    </FileRef>
 </Workspace>
